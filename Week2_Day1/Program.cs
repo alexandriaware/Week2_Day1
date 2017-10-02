@@ -20,14 +20,52 @@ namespace Week2_Day1
             //Do it!
             string[] vacationSpots = { "Disney", "Amsterdam", "Paris", "Geneva", "Dublin",
                 "Vegas", "Denver", "Portland", "Ann Arbor", "Cape Cod" };
-            Console.WriteLine(vacationSpots[0]);
-            Console.WriteLine(vacationSpots[9]);
-
-
+            Console.WriteLine(vacationSpots[0] + " " + vacationSpots[9]);
+                        
+                       
             int[] babyWhippersnappers = { 5, 3, 8 };
             Console.WriteLine(babyWhippersnappers[0]);
             Console.WriteLine(babyWhippersnappers[1]);
             Console.WriteLine(babyWhippersnappers[2]);
+
+
+            decimal[] gpaScore = { 1.23m, 3.95m, 2.99m, 2.80m, 3.88m, 4.0m, 2.83m, 3.20m };
+            Console.WriteLine(gpaScore[6]);
+
+
+            string[] peerNames = { "N", "J", "M", "L" };
+
+
+            //back to lecture
+            int[] numbers = new int[4];
+            numbers[0] = 43;
+            numbers[1] = 12;
+            Console.WriteLine("Please enter a number");
+            numbers[2] = int.Parse(Console.ReadLine());
+            Console.WriteLine("Please enter a number");
+            numbers[3] = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(numbers[3]);
+
+
+            //Do it!
+            string[] daysofWeek = new string[7];
+            daysofWeek[0] = "Sunday";
+            daysofWeek[1] = "Monday";
+            daysofWeek[2] = "Tuesday";
+            daysofWeek[3] = "Wednesday";
+            daysofWeek[4] = "Thursday";
+            daysofWeek[5] = "Friday";
+            daysofWeek[6] = "Saturday";
+
+
+            int[] studentAge = new int[5];
+            studentAge[0] = 23;
+            studentAge[1] = 30;
+            studentAge[2] = 25;
+            studentAge[3] = 40;
+            studentAge[4] = 38;
+
         }
     }
 }
