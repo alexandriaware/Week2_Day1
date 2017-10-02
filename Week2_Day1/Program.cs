@@ -64,7 +64,7 @@ namespace Week2_Day1
             studentAge[1] = 30;
             studentAge[2] = 25;
             studentAge[3] = 40;
-            studentAge[4] = 38;
+            
 
         }
     }
