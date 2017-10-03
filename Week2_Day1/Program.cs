@@ -80,12 +80,32 @@ namespace Week2_Day1
 
             //Console.WriteLine(sampleStringArray[sampleStringArray.Length - 2]);
 
-            Console.WriteLine("Please enter the size of your array.");
 
-            int arraySize = int.Parse(Console.ReadLine());
-            int[] newArray = new int[arraySize];
 
-            Console.WriteLine("The array is of length " + newArray.Length);
+            //Console.WriteLine("Please enter the size of your array.");
+
+            //int arraySize = int.Parse(Console.ReadLine());
+            //int[] newArray = new int[arraySize];
+
+            //Console.WriteLine("The array is of length " + newArray.Length);
+
+
+
+            //string[] birthMonths = { "October", "July", "October", "May" };
+            //Console.WriteLine(Array.IndexOf(birthMonths, "October"));
+
+
+            int[] numbers = { 2, 5, 9, 4, 3, 4, 6, 5 };
+            //Console.WriteLine(Array.LastIndexOf(numbers, 4));
+
+
+            //Array.Reverse(numbers);
+            //Console.WriteLine(numbers[0]);
+
+
+            Array.Sort(numbers);
+            Console.WriteLine(numbers[0]);
+            Console.WriteLine(numbers[numbers.Length - 1]);
 
         }
     }
