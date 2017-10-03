@@ -95,7 +95,7 @@ namespace Week2_Day1
             //Console.WriteLine(Array.IndexOf(birthMonths, "October"));
 
 
-            int[] numbers = { 2, 5, 9, 4, 3, 4, 6, 5 };
+            //int[] numbers = { 2, 5, 9, 4, 3, 4, 6, 5 };
             //Console.WriteLine(Array.LastIndexOf(numbers, 4));
 
 
@@ -103,9 +103,45 @@ namespace Week2_Day1
             //Console.WriteLine(numbers[0]);
 
 
-            Array.Sort(numbers);
-            Console.WriteLine(numbers[0]);
-            Console.WriteLine(numbers[numbers.Length - 1]);
+            //Array.Sort(numbers);
+            //Console.WriteLine(numbers[0]);
+            //Console.WriteLine(numbers[numbers.Length - 1]);
+
+
+
+            //Do it!
+            //string[] names = { "Joy", "Sadness", "Anger", "Fear", "Disgust" };
+            //Console.WriteLine(Array.IndexOf(names, "Fear"));
+
+
+
+            //int[] luckyNum = { 3, 8, 3, 14, 8, 1, 14, 7, 1, 13, 7, 14 , 13};
+            //Console.WriteLine(Array.LastIndexOf(luckyNum, 7));
+
+
+
+            //char[] alphabet = { 'a', 'b', 'c', 'd', 'e' };
+            //Console.WriteLine(alphabet [0]);
+
+            //Array.Reverse(alphabet);
+            //Console.WriteLine(alphabet[0]);
+
+
+
+            //Array.Sort(names);
+            //Console.WriteLine(names[0]);
+            //Console.WriteLine(names[4]);
+
+
+
+            double[] faveNum = { 13, 6, 26, 90, 7, 1040, 45, 32, 3.14 };
+            Array.Sort(faveNum);
+            Console.WriteLine(faveNum[0]);
+            Console.WriteLine(faveNum[8]);
+
+
+
+
 
         }
     }
